@@ -1,0 +1,7 @@
+gp: Modular
+prior_name: SCoreBO_slice
+num_samples: 1600
+warmup: 256
+thinning: 16
+model_kwargs:
+  Null

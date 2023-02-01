@@ -1,0 +1,7 @@
+name: ScoreBO_J_HR
+acq_func: ScoreBO_J
+init_type: sobol
+acq_kwargs:
+  num_optima: 8
+  distance_metric: HR
+  split_coefficient: 1 # This argument does not make a whole lot of sense naming-wise, it's more of a relic

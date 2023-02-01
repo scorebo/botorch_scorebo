@@ -1,0 +1,7 @@
+gp: Modular
+prior_name: ScoreBO_al_bo_bad
+num_samples: 400
+warmup: 256
+thinning: 16
+model_kwargs:
+  Null

@@ -1,0 +1,6 @@
+gp: FullyBayesianSlice
+prior_name: AL_slice
+num_samples: 1600
+warmup_steps: 256
+model_kwargs:
+  Null

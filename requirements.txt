@@ -1,0 +1,11 @@
+multipledispatch
+scipy
+torch>=1.11
+pyro-ppl>=1.8.2
+gpytorch==1.9.0
+<<<<<<< HEAD
+linear_operator==0.1.1
+pymoo>=0.6.0
+=======
+linear_operator==0.2.0
+>>>>>>> 2437241e11a7ede25e7b11d1be9d0bc6d955a421

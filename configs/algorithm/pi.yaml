@@ -1,0 +1,3 @@
+name: PI
+acq_func: PI
+init_type: sobol

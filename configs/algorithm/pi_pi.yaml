@@ -1,0 +1,4 @@
+name: PI-pi
+acq_func: PI-pi
+use_prior: true
+init_type: prior
