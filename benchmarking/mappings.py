@@ -55,8 +55,12 @@ def get_test_function(name: str, noise_std: float, seed: int = 0, outputscale=1)
         'forrester': Forrester(dim=1, noise_std=noise_std, negate=True),
         'hpo_segment': HPOBenchFunction(negate=True, seed=seed, task_id=146822),
         'hpo_blood': HPOBenchFunction(negate=True, seed=seed, task_id=10101),
-        'gp_4dim': GPTestFunction(dim=4, noise_std=noise_std, seed=seed, negate=True),
     }
+    if 'gp' in name:
+        TEST_FUNCTIONS = {
+            'gp_4dim': GPTestFunction(dim=4, noise_std=noise_std, seed=seed, negate=True),
+    
+        }
     test_function = TEST_FUNCTIONS[name]
     return test_function
 

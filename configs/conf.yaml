@@ -3,7 +3,7 @@ defaults:
   - model: fb_scorebo_nuts_albo
   - acq_opt: sample_best_max_100
   - algorithm: scorebo_j_hr
-  - benchmark: branin
+  - benchmark: botorch_branin
   - _self_
 experiment_group: test
 experiment_name: ${benchmark.name}_${algorithm.name}_run_${seed}
